@@ -4,4 +4,4 @@ pipeline:
   build:
     image: debian
     commands:
-      - echo "This is the build step!"
+      - echo "This is the build step! 1"
