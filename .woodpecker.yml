@@ -1,7 +1,7 @@
-# .drone.yml
----
 pipeline:
   build:
-    image: debian
+    image: golang
     commands:
-      - echo "This is the build step! 1"
+      - go get
+      - go build
+      - go test
