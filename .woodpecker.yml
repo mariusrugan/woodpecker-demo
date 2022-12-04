@@ -1,5 +1,6 @@
 pipeline:
   build:
-    image: golang
+    image: debian:stable-slim
     commands:
-      - go get
+      - echo building
+      - sleep 5
